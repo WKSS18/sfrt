@@ -105,7 +105,10 @@ export default class Index extends Component {
                                         this.setState({
                                             selectedTab: item.id,
                                         });
-                                        this.props.history.push("/index/"+item.id)
+                                        this.props.history.push("/index/"+item.id);
+                                        if(item.id==="Home"){
+                                            this.props.history.push('/index/'+item.id+'/mihome')
+                                        }
                                     }}
                                     data-seed="logId"
                                 >
@@ -116,7 +119,12 @@ export default class Index extends Component {
                         )}
                 </TabBar>
                 <Redirect from="/index" to="/index/Home/mihome"></Redirect>
+               
             </div>
         )
+    }
+
+    componentDidMount(){
+        console.log(this.props)
     }
 }

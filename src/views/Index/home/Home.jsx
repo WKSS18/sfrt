@@ -13,7 +13,7 @@ import Minote from "./minote/Minote"
 import Mielectrical from "./mielectrical/Mielectrical"
 import Mirim from "./mirim/Mirim"
 
-import { withRouter,Route,} from "react-router-dom"
+import { withRouter,Route,Redirect} from "react-router-dom"
 class Home extends Component {
     constructor(){
         super();
@@ -42,6 +42,7 @@ class Home extends Component {
                         <Route path={paths+'minote'} component={Minote}></Route>
                         <Route path={paths+'mielectrical'} component={Mielectrical}></Route>
                         <Route path={paths+'mirim'} component={Mirim}></Route>
+
                     </div>
                 </div>
             </HomeContainer>
