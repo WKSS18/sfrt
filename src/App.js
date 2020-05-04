@@ -1,25 +1,18 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-
+import Index from "./views/Index/Index"
+import "./assets/styles/reset.css"
+import { BrowserRouter as Router, Route, Switch, Redirect } from "react-router-dom"
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <Router>
+        <Switch>
+          <Route path="/index" component={Index}></Route>
+          <Redirect exact from="/" to="/index"></Redirect>
+          <Route path="*" render={() => {
+            return <h1>page not found 404 </h1>
+          }}></Route>
+        </Switch>
+      </Router>
   );
 }
 
