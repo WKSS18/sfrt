@@ -100,7 +100,7 @@ export default class Index extends Component {
                                    
                                     }
                                     selected={this.state.selectedTab === item.id}
-                                    // badge={1}
+                                    badge={item.id==='Shop' ? 1 : ""}
                                     onPress={() => {
                                         this.setState({
                                             selectedTab: item.id,
@@ -108,6 +108,9 @@ export default class Index extends Component {
                                         this.props.history.push("/index/"+item.id);
                                         if(item.id==="Home"){
                                             this.props.history.push('/index/'+item.id+'/mihome')
+                                        }else if(item.id==='Profile'){
+                                            console.log('dd')
+                                            this.props.history.push('/login')
                                         }
                                     }}
                                     data-seed="logId"

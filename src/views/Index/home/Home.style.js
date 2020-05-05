@@ -4,6 +4,7 @@ import Search from "assets/images/search.png"
 import Profile from "assets/images/profile.png"
 import Down from "assets/images/down.png"
 const HomeContainer = styled.div`
+    height:100%;
      .miHsearch{
         height:0.89rem;
         display:flex;
@@ -84,6 +85,16 @@ const HomeContainer = styled.div`
             line-height:0.6rem;
             color: rgba(0,0,0,.3);
         }
+    }
+    .miHome {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .miMain {
+        overflow: auto;
+        flex: 1;
     }
 `
 

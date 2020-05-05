@@ -1,4 +1,6 @@
 {
     "/api/miNav":"/miNav",
-    "/api/miSwiper":"/miSwiper"
+    "/api/miSwiper":"/miSwiper",
+    "/api/daily":"/daily",
+    "/api/detailProduct":"/detailProduct"
 }

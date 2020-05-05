@@ -1,0 +1,41 @@
+@mixin border_1px($color) {
+  position: relative;
+  @media (-webkit-min-device-pixel-ratio: 1.5), (min-device-pixel-ratio: 1.5) {
+    &::before {
+      content: " ";
+      position: absolute;
+      left: 0px;
+      top: 0px;
+      background-color: $color;
+      transform: scaleY(0.667);
+      height: 1px;
+      width: 100%;
+    }
+  }
+
+  @media (-webkit-min-device-pixel-ratio: 2), (min-device-pixel-ratio: 2) {
+    &::before {
+      content: " ";
+      position: absolute;
+      left: 0px;
+      top: 0px;
+      background-color: $color;
+      transform: scaleY(0.5);
+      height: 1px;
+      width: 100%;
+    }
+  }
+
+  @media (-webkit-min-device-pixel-ratio: 3), (min-device-pixel-ratio: 3) {
+    &::before {
+      content: " ";
+      position: absolute;
+      left: 0px;
+      top: 0px;
+      background-color: $color;
+      transform: scaleY(0.333);
+      height: 1px;
+      width: 100%;
+    }
+  }
+}

@@ -4,7 +4,6 @@ const get  = (url,params)=>{
 }
 
 const post = (url,params)=>{
-    console.log(params)
     return axios.post(url,params)
 }
 export {

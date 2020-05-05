@@ -1,0 +1,133 @@
+[
+    {
+        "w": 720,
+        "h": 440,
+        "material_id": 15828,
+        "ad_position_id": 2038,
+        "img_url": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/e32eea5c3c27062019f9ac6434b351df.jpg?f=webp\u0026w=1080\u0026h=660\u0026bg=FFFFFF",
+        "img_url_webp": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/e32eea5c3c27062019f9ac6434b351df.jpg?f=webp\u0026w=1080\u0026h=660\u0026bg=FFFFFF",
+        "img_url_color": "#FFFFFF",
+        "action": {
+            "type": "product",
+            "path": "10000180",
+            "log_code": "31waphomecells_auto_fill001019#t=ad\u0026act=product\u0026page=home\u0026pid=10000180\u0026page_id=26\u0026bid=3182278.1\u0026adp=2038\u0026adm=15828"
+        },
+        "path_type": "image",
+        "product_id": "10000288",
+        "margin_left": 0,
+        "margin_right": 0
+    },
+    {
+        "img_url": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/7ed6090953a4edca0ee6bc4b36cb4a9e.jpg?f=webp\u0026w=516\u0026h=420",
+        "img_url_webp": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/7ed6090953a4edca0ee6bc4b36cb4a9e.jpg?f=webp\u0026w=516\u0026h=420",
+        "img_url_color": "#F5F5F5",
+        "action": {
+            "type": "product",
+            "path": "10000213",
+            "log_code": "31waphomelist_two_type13001021#t=product\u0026act=other\u0026page=home\u0026page_id=26\u0026bid=3475066.1\u0026pid=10000213"
+        },
+        "show_price_qi": true,
+        "product_id": "10000213",
+        "product_name": "小米10 Pro",
+        "product_brief": "骁龙865 / 50倍变焦",
+        "product_price": "4999",
+        "product_org_price": "4999",
+        "product_rebate": {},
+        "margin_left": 0,
+        "margin_right": 0
+    },
+    {
+        "img_url": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/9b3b7c52bffab0806c54652ee0872a64.jpg?f=webp",
+        "img_url_webp": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/9b3b7c52bffab0806c54652ee0872a64.jpg?f=webp",
+        "img_url_color": "#F5F5F5",
+        "action": {
+            "type": "product",
+            "path": "10000214",
+            "log_code": "31waphomelist_two_type13002021#t=product\u0026act=other\u0026page=home\u0026page_id=26\u0026bid=3475066.2\u0026pid=10000214"
+        },
+        "show_price_qi": true,
+        "product_id": "10000214",
+        "product_name": "小米10",
+        "product_brief": "骁龙865/1亿像素相机",
+        "product_price": "3999",
+        "product_org_price": "3999",
+        "product_rebate": {},
+        "margin_left": 0,
+        "margin_right": 0
+    },
+    {
+        "action": {
+            "type": "product",
+            "path": "10000203"
+        },
+        "img_url": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/64a04d4f67a23c2d8643aaba52e2392b.jpg?f=webp&w=516&h=420",
+        "img_url_color": "#F5F5F5",
+        "img_url_webp": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/64a04d4f67a23c2d8643aaba52e2392b.jpg?f=webp&w=516&h=420",
+        "margin_left": 0,
+        "margin_right": 0,
+        "product_brief": "120Hz流速屏，全速热爱",
+        "product_id": "10000203",
+        "product_name": "Redmi K30",
+        "product_org_price": "1699",
+        "product_price": "1599",
+        "product_rebate": {},
+        "show_price_qi": true
+    },
+    {
+        "img_url": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/cf8c841ab5e52d443be110f6aa7e0d98.jpg?f=webp",
+        "img_url_webp": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/cf8c841ab5e52d443be110f6aa7e0d98.jpg?f=webp",
+        "img_url_color": "#F5F5F5",
+        "action": {
+            "type": "product",
+            "path": "10000204",
+            "log_code": "31waphomelist_two_type13002023#t=product\u0026act=other\u0026page=home\u0026page_id=26\u0026bid=3475064.2\u0026pid=10000204"
+        },
+        "show_price_qi": true,
+        "product_id": "10000204",
+        "product_name": "Redmi K30 5G",
+        "product_brief": "双模5G，120Hz流速屏",
+        "product_price": "1999",
+        "product_org_price": "1999",
+        "product_rebate": {},
+        "margin_left": 0,
+        "margin_right": 0
+    },
+    {
+        "img_url": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/53e729d30746033a042d8ae9399553a7.jpg?f=webp\u0026w=516\u0026h=420",
+        "img_url_webp": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/53e729d30746033a042d8ae9399553a7.jpg?f=webp\u0026w=516\u0026h=420",
+        "img_url_color": "#F5F5F5",
+        "action": {
+            "type": "product",
+            "path": "10000180",
+            "log_code": "31waphomelist_two_type13001025#t=product\u0026act=other\u0026page=home\u0026page_id=26\u0026bid=3475062.1\u0026pid=10000180"
+        },
+        "show_price_qi": true,
+        "product_id": "10000180",
+        "product_name": "Redmi Note 8 Pro",
+        "product_brief": "6400万全场景四摄",
+        "product_price": "1199",
+        "product_org_price": "1399",
+        "product_rebate": {},
+        "margin_left": 0,
+        "margin_right": 0
+    },
+    {
+        "img_url": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/8025107813883a20d3f2d956ad80ea38.jpg?f=webp\u0026w=516\u0026h=420",
+        "img_url_webp": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/8025107813883a20d3f2d956ad80ea38.jpg?f=webp\u0026w=516\u0026h=420",
+        "img_url_color": "#F5F5F5",
+        "action": {
+            "type": "product",
+            "path": "10000181",
+            "log_code": "31waphomelist_two_type13002025#t=product\u0026act=other\u0026page=home\u0026page_id=26\u0026bid=3475062.2\u0026pid=10000181"
+        },
+        "show_price_qi": true,
+        "product_id": "10000181",
+        "product_name": "Redmi Note 8",
+        "product_brief": "千元4800万四摄",
+        "product_price": "899",
+        "product_org_price": "999",
+        "product_rebate": {},
+        "margin_left": 0,
+        "margin_right": 0
+    }
+]
