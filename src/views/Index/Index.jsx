@@ -23,6 +23,8 @@ import ProfileCon from "./profile/Profile"
 
 import "assets/styles/common.css"
 import {Redirect} from "react-router-dom"
+
+import connect from "views/Index/detail/redux/connect"
 const datalist = [
     {
         id: "Home",
@@ -59,7 +61,7 @@ const datalist = [
         comp: ProfileCon
     }
 ]
-export default class Index extends Component {
+class Index extends Component {
     constructor(props) {
         super(props);
         this.state = {
@@ -100,7 +102,8 @@ export default class Index extends Component {
                                    
                                     }
                                     selected={this.state.selectedTab === item.id}
-                                    badge={item.id==='Shop' ? 1 : ""}
+                                    // badge={item.id==='Shop' ? `${this.props.count}` : ""}
+                                    badge={item.id==='Shop' ? localStorage.getItem('count') : ""}
                                     onPress={() => {
                                         this.setState({
                                             selectedTab: item.id,
@@ -128,6 +131,11 @@ export default class Index extends Component {
     }
 
     componentDidMount(){
-        console.log(this.props)
+        console.log(this.props);
+        console.log(this.props.count);
+        const ar = this.props.count
+        localStorage.setItem("count",ar);
     }
 }
+
+export default connect(Index)

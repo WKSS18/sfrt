@@ -2,20 +2,26 @@ import React, { Component } from 'react'
 import { get } from "utils/http"
 import Swiper from "components/swiper/Swiper"
 import "./Miproduct.scss"
-export default class Miproduct extends Component {
+import connect from "./redux/connect"
+class Miproduct extends Component {
     handClick = ()=>{
-        
+        console.log(this.props);
+        this.props.changeCount();
+    }
+    bakClick = ()=>{
+        this.props.history.push('/index/Home/mihome')
     }
     constructor(){
         super();
         this.state = {
             Swiperlist:[],
-            title:""
+            title:"",
         }
     }
     render() {
         return (
             <div className="miProductDetail">
+                <i className="bak" onClick={this.bakClick}></i>
                 <Swiper list={this.state.Swiperlist}></Swiper>   
                 <p className="miprotit">
                     {this.state.title}
@@ -42,3 +48,4 @@ export default class Miproduct extends Component {
         this.getDetailproduct();
     }
 }
+export default connect(Miproduct)

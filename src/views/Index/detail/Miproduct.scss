@@ -30,6 +30,16 @@
 
 .btn {
     position: absolute;
-    bottom: 10px;
-    right: 16px;
+    bottom: 0.2rem;
+    right: 0.32rem;
+}
+.bak{
+    background: url('../../../assets/images/back.png') no-repeat center center;
+    width: 0.6rem;
+    height: 0.6rem;
+    display: block;
+    position: absolute;
+    z-index: 2;
+    margin: 0.18rem;
+    color:black
 }

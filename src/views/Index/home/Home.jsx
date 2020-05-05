@@ -24,6 +24,10 @@ class Home extends Component {
     handleChange=(type)=>{
         this.props.history.push(this.props.match.path+"/Home/"+type)
     }
+    searchGood = ()=>{
+        console.log('aa')
+        this.props.history.push("/search")
+    }
     render() {
         let paths = this.props.match.path+"/Home/";
         return (
@@ -31,7 +35,7 @@ class Home extends Component {
             <HomeContainer>
                 <div className="miHome">
                     <div className="miHead">
-                        <MiHeadSearch></MiHeadSearch>
+                        <MiHeadSearch searchGood={this.searchGood}></MiHeadSearch>
                         <MiHeadNav paths={this.handleChange}></MiHeadNav>
                     </div>
                     <div className="miMain">
