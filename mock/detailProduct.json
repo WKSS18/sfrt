@@ -79,7 +79,7 @@
             ]
         },
         {
-            "product-id":"10000213",
+            "product_id":"10000213",
             "description": "<font color='#ff4a00'>「+1元得镜面视窗保护套，碎屏保、延保享5折优惠，购256GB赠送99元双单元半入耳式耳机或79元小米移动电源3（二选一）」</font>骁龙865处理器 / 1亿像素8K电影相机 / 双模5G / 新一代LPDDR5内存 / 对称式立体声 / 90Hz刷新率+180Hz采样率 / UFS 3.0高速存储 / 全面适配Wi-Fi 6 / 超强VC液冷散热 / 30W极速闪充+30W无线闪充+10W无线反充 / 4780mAh大电量 / 多功能NFC",
             "keywords": "小米10,8GB+256GB,钛银黑,8GB+128GB,冰海蓝,蜜桃金,12GB+256GB",
             "title": "小米10",
@@ -405,7 +405,7 @@
             "keywords": "Redmi,Note,Pro,6GB+128GB,电光灰,6GB+64GB,冰翡翠,贝母白,8GB+128GB,暮光橙",
             "title": "Redmi Note 8 Pro",
             "product_id": "10000180",
-            "gallery_view": [
+            "gallery_v3": [
                 {
                     "img_url": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/b0a79144e03c7db684f46b351b8a44be.jpg?f=webp",
                     "img_url_webp": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/b0a79144e03c7db684f46b351b8a44be.jpg?f=webp",

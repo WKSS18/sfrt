@@ -13,9 +13,9 @@ export default class Swiper extends Component {
                     autoplay={true}
                     infinite
                 >
-                    {this.props.list.map(item => (
+                    {this.props.list.map((item,index) => (
                         <a
-                            key={item.id}
+                            key={index}
                             href=" "
                             style={{ display: 'inline-block', width: '100%', height: this.state.imgHeight }}
                         >

@@ -5,3 +5,6 @@ html{
     margin: 0;
     background: white;
 }
+#root{
+    height: 100%;
+}
