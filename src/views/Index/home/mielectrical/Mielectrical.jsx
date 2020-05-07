@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 export default class Mielectrical extends Component {
     render() {
         return (
-            <div>
+            <div className="melecTrical">
                 Mielectrical
             </div>
         )

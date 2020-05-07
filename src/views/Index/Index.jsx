@@ -112,8 +112,13 @@ class Index extends Component {
                                         if(item.id==="Home"){
                                             this.props.history.push('/index/'+item.id+'/mihome')
                                         }else if(item.id==='Profile'){
-                                            console.log('dd')
-                                            this.props.history.push('/login')
+                                            console.log('dd');
+                                            if(localStorage.getItem('userIfo')){
+                                                console.log('aa')
+                                                this.props.history.push('/user')
+                                            }else{
+                                                this.props.history.push('/login')
+                                            }
                                         }
                                     }}
                                     data-seed="logId"

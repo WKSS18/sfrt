@@ -1,0 +1,75 @@
+.mivisionHead {
+    img {
+        height: 2.94rem;
+        width: 100%;
+    }
+}
+
+.mivisionMain {
+    img {
+        height: 1.4rem;
+        width: 100%;
+    }
+}
+.mivisionMain {
+    background: rgb(71, 23, 147);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+    li {
+        height:3.8582rem;
+        list-style: none;
+        background: white;
+        margin-bottom: 0.15rem;;
+        border-radius: 0.1rem;
+        text-align: center;
+        img {
+            width: 2.3rem;
+            height: 2.3rem;
+        }
+    }
+}
+
+p.telavisionName {
+    font-size: .24rem;
+    padding: 0 .12rem;
+    margin-top:0.2rem;
+}
+
+p.telavisionBrief {
+    font-size: .2rem;
+    line-height: 1.6em;
+    color: #3c3c3c;
+    height: 1.5em;
+    line-height: 1.5em;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 2.3rem;
+    margin: 0.1rem 0;
+}
+span.telaNewprice {
+    color: rgb(245, 75, 75);
+    font-size: .28rem;
+    text-align: center;
+    margin-top: .3em;
+    margin-bottom: 0;
+    font-family: Heiti SC,STHeiti;
+    font-size: .32rem;
+    color: #ff4a48;
+    font-weight: 700;
+    text-align: right;
+    line-height: 1em;
+    height: 1.2em;
+    white-space: nowrap;
+}
+
+span.telaOrgprice {
+    display: inline-block;
+    margin: 0 .1rem;
+    font-size: .76em;
+    color: rgba(0,0,0,.54);
+    vertical-align: baseline;
+    text-decoration: line-through;
+}

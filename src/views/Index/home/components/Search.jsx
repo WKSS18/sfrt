@@ -5,7 +5,11 @@ class Search extends Component {
         this.props.searchGood();
     }
     loginClick = ()=>{
-        this.props.history.push("/login")
+        if(localStorage.getItem('userIfo')){
+            this.props.history.push('/user')
+        }else{
+            this.props.history.push('/login')
+        }
     }
     render() {
 

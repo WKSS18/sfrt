@@ -1,0 +1,56 @@
+.productHot{
+    img{
+        height: 1.12rem;
+        width: 100%;
+    }
+}
+.classifyPro{
+    display: flex;
+    flex-wrap: wrap;
+    li{
+        list-style: none;
+        flex: 1;
+        img{
+            width: 1.5rem;;
+        }
+    }
+}
+.MiProduct{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        margin-top: 0.2rem;;
+    li{
+        list-style: none;
+        img{
+            width: 2.31rem;
+            height: 2.31rem;
+            border-radius: 0.1rem;
+        }
+    }
+    p.productName {
+        width: 2.3rem;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        margin-top: 0.2rem;
+    }
+    .productBrief{
+        margin: 10px 0;
+        display: flex;
+        justify-content: space-around;
+        span{
+            font-weight: 600;
+        }
+    }
+    .priceOrig{
+        font-family: Heiti SC,STHeiti;
+        font-size: .32rem;
+        color: #ff4a48;
+        font-weight: 700;
+        text-align: right;
+        line-height: 1em;
+        height: 1.2em;
+        white-space: nowrap;
+    }
+}

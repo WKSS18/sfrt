@@ -30,7 +30,7 @@ export default class Recommend extends Component {
         let result = await get('/api/daily');
         console.log(result)
         this.setState({
-            Dailylist:result.data
+            Dailylist:result.data.recommend
         })
     }
     componentDidMount(){

@@ -4,6 +4,7 @@ import App from './App';
 import "assets/styles/common.css"
 import { Provider } from "react-redux"
 import store from "./store/store"
+import "./mock/user"
 ReactDOM.render(
   <Provider store={store}>
     <App />
