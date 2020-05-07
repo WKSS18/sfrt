@@ -1,0 +1,122 @@
+.melecNav {
+    img {
+        width: 1.5rem;
+    }
+
+}
+
+.melecHead{
+    img{
+         height: 4.8956rem;
+    }
+   
+}
+
+img.meleproTit {
+    height: 1.4366rem;
+    width: 100%;
+}
+
+.meleProduct {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background: rgb(72, 23, 148);
+}
+
+img.meleproTit {
+    height: 1.4376rem;
+    width: 100%;
+}
+
+.meleProduct li img {
+    width: 3.5206rem;
+    height: 3.5206rem;
+}
+
+.meleProduct li {
+    list-style: none;
+    height: 5.8316rem;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 0.15rem;
+    border-radius: 0.1rem;
+    text-align: center;
+}
+
+p.tricalBrief {
+    width: 3.2rem,;
+    width: 3.2rem;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+p.tricalTit {
+    font-weight: bolder;
+    color: #3c3c3c;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: .28rem;
+    width: 3.2rem;
+    padding: 0 .12rem;
+}
+
+p.tricalTit {
+    font-size: .2rem;
+    color: #3c3c3c;
+    height: 1.5em;
+    line-height: 1.5em;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+span.tricalNewprice {
+    color: rgb(245, 75, 75);
+    font-size: .28rem;
+    text-align: center;
+    font-family: Heiti SC,STHeiti;
+    font-size: .32rem;
+    color: #ff4a48;
+    font-weight: 700;
+    text-align: right;
+    line-height: 1em;
+    height: 1.2em;
+    white-space: nowrap;
+}
+
+span.tricalOldprice {
+    margin: 0 .1rem;
+    font-size: .76em;
+    color: rgba(0,0,0,.54);
+}
+
+p.tricalBuy {
+    background-color: rgb(245, 75, 75);
+    color: rgb(255, 255, 255);
+    display: block;
+    width: 100%;
+    height: .6rem;
+    line-height: .6rem;
+    text-align: center;
+    font-size: .24rem;
+    height: .49rem;
+    line-height: .49rem;
+    background: #ea625b;
+    border-radius: 3px;
+    span: #fff;
+    width: 2rem;
+}
+p.tricalTit {
+    margin: 0.1rem 0;
+}
+
+p.tricalBrief {
+    margin: 0.1rem 0;
+}
+
+p.tricalPrice {
+    margin: 0.1rem 0;
+}

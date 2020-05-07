@@ -1,0 +1,83 @@
+.miTrimHead img {
+    height: 9.7394rem;
+}
+.miTrimNav li img {
+    width: 3.75rem;
+    height: 2.392rem;
+}
+
+.miTrimNav li {
+    list-style: none;
+}
+
+.miTrimNav {
+    display: flex;
+    flex-wrap: wrap;
+}
+.miTrimMain {
+    background: rgb(232, 174, 180);
+    padding-top: 0.2rem;
+}
+.miTrimProduct li img {
+    width: 2.32rem;
+    height: 2.32rem;
+}
+
+.miTrimProduct img {
+    height: 0.9688rem;
+}
+
+.miTrimProduct li {
+    list-style: none;
+    background: white;
+    margin-bottom: 0.2rem;
+    border-radius: 0.1rem;
+    text-align: center;
+}
+
+.miTrimProduct {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+p.trimName {
+    font-size: .24rem;
+    padding: 0 .12rem;
+    font-weight: bolder;
+    color: #3c3c3c;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 2rem;
+    margin: 0.1rem 0;
+}
+
+p.trimBrief {
+    font-size: .2rem;
+    line-height: 1.6em;
+    color: #3c3c3c;
+    height: 1.5em;
+    line-height: 1.5em;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 2.2rem;
+    text-overflow: ellipsis;
+}
+span.trimNewprice {
+    color: rgb(245, 75, 75);
+    font-size: .28rem;
+    text-align: center;
+    margin-top: .3em;
+    display: block;
+    margin-bottom: 0;
+    font-family: Heiti SC,STHeiti;
+    font-size: .32rem;
+    color: #ff4a48;
+    font-weight: 700;
+    text-align: right;
+    line-height: 1em;
+    height: 1.2em;
+    white-space: nowrap;
+    text-align: center;
+}

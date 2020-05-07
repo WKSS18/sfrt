@@ -828,6 +828,210 @@
     ],
     "note":[
         {
+            "swiper":[
+                {
+                    "w": 720,
+                    "h": 360,
+                    "material_id": 20487,
+                    "ad_position_id": 3453,
+                    "img_url": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/3e67d1f9b35eedce3653a8d7f60a2be5.jpg?f=webp\u0026w=1080\u0026h=540\u0026bg=0",
+                    "img_url_webp": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/3e67d1f9b35eedce3653a8d7f60a2be5.jpg?f=webp\u0026w=1080\u0026h=540\u0026bg=0",
+                    "img_url_color": "#0",
+                    "action": {
+                        "type": "activity",
+                        "path": "https://s1.mi.com/m/app/hd/index.html?id=15188",
+                        "log_code": "3113176wapactivitygallery001002#t=ad\u0026act=other\u0026page=activity\u0026page_id=13176\u0026bid=3578869.1\u0026adp=3453\u0026adm=20487"
+                    },
+                    "margin_left": 0,
+                    "margin_right": 0,
+                    "type": "image"
+                },
+                {
+                    "w": 720,
+                    "h": 360,
+                    "material_id": 20026,
+                    "ad_position_id": 3452,
+                    "img_url": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/ed2a14e54ed77ee3f389366866a54beb.jpg?f=webp\u0026w=1080\u0026h=540\u0026bg=93DCFF",
+                    "img_url_webp": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/ed2a14e54ed77ee3f389366866a54beb.jpg?f=webp\u0026w=1080\u0026h=540\u0026bg=93DCFF",
+                    "img_url_color": "#93DCFF",
+                    "action": {
+                        "type": "product",
+                        "path": "10000193",
+                        "log_code": "3113176wapactivitygallery002002#t=ad\u0026act=product\u0026page=activity\u0026pid=10000193\u0026page_id=13176\u0026bid=3578869.2\u0026adp=3452\u0026adm=20026"
+                    },
+                    "margin_left": 0,
+                    "margin_right": 0,
+                    "type": "image"
+                },
+                {
+                    "w": 720,
+                    "h": 360,
+                    "material_id": 17157,
+                    "ad_position_id": 3454,
+                    "img_url": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/f6466eafbf6f42313883db881157403b.jpg?f=webp\u0026w=1080\u0026h=540\u0026bg=EA80A4",
+                    "img_url_webp": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/f6466eafbf6f42313883db881157403b.jpg?f=webp\u0026w=1080\u0026h=540\u0026bg=EA80A4",
+                    "img_url_color": "#EA80A4",
+                    "action": {
+                        "type": "product",
+                        "path": "10000179",
+                        "log_code": "3113176wapactivitygallery003002#t=ad\u0026act=product\u0026page=activity\u0026pid=10000179\u0026page_id=13176\u0026bid=3578869.3\u0026adp=3454\u0026adm=17157"
+                    },
+                    "margin_left": 0,
+                    "margin_right": 0,
+                    "type": "image"
+                },
+                {
+                    "w": 720,
+                    "h": 360,
+                    "material_id": 18344,
+                    "ad_position_id": 3455,
+                    "img_url": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/94bec56f4b7a3131392e5436ba821084.jpg?f=webp\u0026w=1080\u0026h=540\u0026bg=B1C7FF",
+                    "img_url_webp": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/94bec56f4b7a3131392e5436ba821084.jpg?f=webp\u0026w=1080\u0026h=540\u0026bg=B1C7FF",
+                    "img_url_color": "#B1C7FF",
+                    "action": {
+                        "type": "product",
+                        "path": "10000211",
+                        "log_code": "3113176wapactivitygallery004002#t=ad\u0026act=product\u0026page=activity\u0026pid=10000211\u0026page_id=13176\u0026bid=3578869.4\u0026adp=3455\u0026adm=18344"
+                    },
+                    "margin_left": 0,
+                    "margin_right": 0,
+                    "type": "image"
+                }
+            ],
+            "product":[
+                {
+                    "img_url": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/c1038b06609731b7179fcaef03627ede.jpg?f=webp\u0026w=330\u0026h=330\u0026thumb=1",
+                    "img_url_webp": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/c1038b06609731b7179fcaef03627ede.jpg?f=webp\u0026w=330\u0026h=330\u0026thumb=1",
+                    "img_url_color": "#E5F0F2",
+                    "action": {
+                        "type": "product",
+                        "path": "2193200039",
+                        "log_code": "3113176wapactivitylist_three_type4001043#t=product\u0026act=other\u0026page=activity\u0026page_id=13176\u0026bid=3653897.1\u0026pid=10581"
+                    },
+                    "product_id": "10581",
+                    "product_name": "RedmiBook 14 增强版",
+                    "product_brief": "十代酷睿更强劲",
+                    "product_price": "4799",
+                    "product_org_price": "4999",
+                    "product_rebate": {
+                        "1": "约返143.97元",
+                        "2": "约返143.97元",
+                        "3": "约返143.97元",
+                        "4": "约返143.97元"
+                    },
+                    "margin_left": 0,
+                    "margin_right": 0
+                },
+                {
+                    "img_url": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/e3a81530c81ba1e6e926bc2cea70b1f4.jpg?f=webp\u0026w=330\u0026h=330\u0026thumb=1",
+                    "img_url_webp": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/e3a81530c81ba1e6e926bc2cea70b1f4.jpg?f=webp\u0026w=330\u0026h=330\u0026thumb=1",
+                    "img_url_color": "#E6F1F3",
+                    "action": {
+                        "type": "product",
+                        "path": "2194100033",
+                        "log_code": "3113176wapactivitylist_three_type4002043#t=product\u0026act=other\u0026page=activity\u0026page_id=13176\u0026bid=3653897.2\u0026pid=10976"
+                    },
+                    "product_id": "10976",
+                    "product_name": "RedmiBook 14 锐龙版",
+                    "product_brief": "满血锐龙，高性能金属轻薄本",
+                    "product_price": "3299",
+                    "product_org_price": "3699",
+                    "product_rebate": {
+                        "1": "约返98.97元",
+                        "2": "约返98.97元",
+                        "3": "约返98.97元",
+                        "4": "约返98.97元"
+                    },
+                    "margin_left": 0,
+                    "margin_right": 0
+                },
+                {
+                    "img_url": "//i8.mifile.cn/v1/a1/0f8d53eb-32d9-dee9-d25a-686924c16c49.webp?w=1080\u0026h=1080",
+                    "img_url_webp": "//i8.mifile.cn/v1/a1/0f8d53eb-32d9-dee9-d25a-686924c16c49.webp?w=1080\u0026h=1080",
+                    "img_url_color": "#B19198",
+                    "action": {
+                        "type": "product",
+                        "path": "2191200002",
+                        "log_code": "3113176wapactivitylist_three_type4003043#t=product\u0026act=other\u0026page=activity\u0026page_id=13176\u0026bid=3653897.3\u0026pid=9512"
+                    },
+                    "product_id": "9512",
+                    "product_name": "Air 12.5\"",
+                    "product_brief": "像杂志一样随身携带",
+                    "product_price": "3299",
+                    "product_org_price": "3599",
+                    "product_rebate": {},
+                    "margin_left": 0,
+                    "margin_right": 0
+                },
+                {
+                    "img_url": "//i8.mifile.cn/v1/a1/65304c25-776c-0b38-9924-df48c16dc9f0.webp?w=1080\u0026h=1080",
+                    "img_url_webp": "//i8.mifile.cn/v1/a1/65304c25-776c-0b38-9924-df48c16dc9f0.webp?w=1080\u0026h=1080",
+                    "img_url_color": "#9D9EA4",
+                    "action": {
+                        "type": "product",
+                        "path": "10000142",
+                        "log_code": "3113176wapactivitylist_three_type4001045#t=product\u0026act=other\u0026page=activity\u0026page_id=13176\u0026bid=3653899.1\u0026pid=9831"
+                    },
+                    "product_id": "9831",
+                    "product_name": "Air 13.3\"",
+                    "product_brief": "i5处理器 新一代独立显卡",
+                    "product_price": "4999",
+                    "product_org_price": "5699",
+                    "product_rebate": {},
+                    "margin_left": 0,
+                    "margin_right": 0
+                },
+                {
+                    "img_url": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/0c087fe7fbda06e01401b1875af2580a.jpg?f=webp\u0026w=330\u0026h=330\u0026thumb=1",
+                    "img_url_webp": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/0c087fe7fbda06e01401b1875af2580a.jpg?f=webp\u0026w=330\u0026h=330\u0026thumb=1",
+                    "img_url_color": "#E7F1F3",
+                    "action": {
+                        "type": "product",
+                        "path": "10000211",
+                        "log_code": "3113176wapactivitylist_three_type4002045#t=product\u0026act=other\u0026page=activity\u0026page_id=13176\u0026bid=3653899.2\u0026pid=10960"
+                    },
+                    "product_id": "10960",
+                    "product_name": "Pro 增强版",
+                    "product_brief": "再次突破强大",
+                    "product_price": "6799",
+                    "product_org_price": "6999",
+                    "product_rebate": {
+                        "1": "约返203.97元",
+                        "2": "约返203.97元",
+                        "3": "约返203.97元",
+                        "4": "约返203.97元"
+                    },
+                    "margin_left": 0,
+                    "margin_right": 0
+                },
+                {
+                    "img_url": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/505792369251355de3fe3f4f89e38ae6.jpg?f=webp\u0026w=330\u0026h=330\u0026thumb=1",
+                    "img_url_webp": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/505792369251355de3fe3f4f89e38ae6.jpg?f=webp\u0026w=330\u0026h=330\u0026thumb=1",
+                    "img_url_color": "#E6F1F3",
+                    "action": {
+                        "type": "product",
+                        "path": "10000205",
+                        "log_code": "3113176wapactivitylist_three_type4003045#t=product\u0026act=other\u0026page=activity\u0026page_id=13176\u0026bid=3653899.3\u0026pid=11264"
+                    },
+                    "product_id": "11264",
+                    "product_name": "RedmiBook 13 ",
+                    "product_brief": "让高性能全面展现",
+                    "product_price": "4499",
+                    "product_org_price": "4799",
+                    "product_rebate": {
+                        "1": "约返134.97元",
+                        "2": "约返134.97元",
+                        "3": "约返134.97元",
+                        "4": "约返134.97元"
+                    },
+                    "margin_left": 0,
+                    "margin_right": 0
+                }
+            ]
+        }
+    ],
+    "appliance":[
+        {
             "headItem":{
                 "w": 720,
                 "h": 470,

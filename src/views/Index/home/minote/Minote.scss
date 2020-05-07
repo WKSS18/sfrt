@@ -1,0 +1,89 @@
+.noteMainThem {
+    height: 2.94rem;
+    width: 100%;
+}
+
+.noteMain {
+    img {
+        height: 1.4rem;
+        width: 100%;
+    }
+}
+
+.noteMain {
+    background: rgb(161, 144, 196);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+    .noteProduct {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    li {
+        height: 4rem;
+        list-style: none;
+        background: white;
+        margin-bottom: 0.15rem;
+        width:2.3rem;
+        border-radius: 0.1rem;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        img {
+            width: 2.3rem;
+            height: 2.3rem;
+        }
+    }
+}
+
+p.noteName {
+    font-size: .24rem;
+    padding: 0 .12rem;
+    margin-top: 0.2rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 1.5rem;
+}
+
+p.noteBrief {
+    font-size: .2rem;
+    line-height: 1.6em;
+    color: #3c3c3c;
+    height: 1.5em;
+    line-height: 1.5em;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 2.3rem;
+    margin: 0.1rem 0;
+}
+
+span.noteNewprice {
+    color: rgb(245, 75, 75);
+    font-size: .28rem;
+    text-align: center;
+    margin-top: .3em;
+    margin-bottom: 0;
+    font-family: Heiti SC, STHeiti;
+    font-size: .32rem;
+    color: #ff4a48;
+    font-weight: 700;
+    text-align: right;
+    line-height: 1em;
+    height: 1.2em;
+    white-space: nowrap;
+}
+
+span.noteOrgprice {
+    display: inline-block;
+    margin: 0 .1rem;
+    font-size: .76em;
+    color: rgba(0, 0, 0, .54);
+    vertical-align: baseline;
+    text-decoration: line-through;
+}

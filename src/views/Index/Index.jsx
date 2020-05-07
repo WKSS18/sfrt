@@ -136,10 +136,8 @@ class Index extends Component {
     }
 
     componentDidMount(){
-        console.log(this.props);
-        console.log(this.props.count);
-        const ar = this.props.count
-        localStorage.setItem("count",ar);
+        console.log(this.props)
+        localStorage.setItem("count",this.props.count);
     }
 }
 

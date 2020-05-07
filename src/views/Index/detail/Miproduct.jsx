@@ -7,6 +7,7 @@ class Miproduct extends Component {
     handClick = ()=>{
         console.log(this.props);
         this.props.changeCount();
+        this.props.goodsData({id:this.state.productId})
     }
     bakClick = ()=>{
         this.props.history.push('/index/Home/mihome')
@@ -16,6 +17,7 @@ class Miproduct extends Component {
         this.state = {
             Swiperlist:[],
             title:"",
+            productId:''
         }
     }
     render() {
@@ -33,16 +35,14 @@ class Miproduct extends Component {
     async getDetailproduct() {
         let product_id = window.location.href.split("miproduct/")[1]
         let result = await get('/api/detailProduct');
-        console.log(result.data.data);
         let productThem = result.data.data.filter((item, index) => {
             return item.product_id === product_id
         })
-        console.log(productThem);
         this.setState({
             Swiperlist:productThem[0].gallery_v3,
-            title:productThem[0].title
+            title:productThem[0].title,
+            productId:productThem[0].product_id
         })
-        console.log(this.state.Swiperlist)
     }
     componentDidMount() {
         this.getDetailproduct();
