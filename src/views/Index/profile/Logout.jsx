@@ -6,7 +6,7 @@ export default class Logout extends Component {
         this.props.history.push('/login')
     }
     clickBak = ()=>{
-        this.props.history.push('/user')
+        this.props.history.push('/index/Profile')
     }
     render() {
         return (

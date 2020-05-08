@@ -1,0 +1,9 @@
+{
+  "apps": [
+    {
+      "name": "mock-api",
+      "script": "json-server",
+      "args": "/www/mock/mock.js -p 8088 -r /www/mock/router.json  -s /www/mock/public/ -w /www/mock/swipper.json"
+    }
+  ]
+}
