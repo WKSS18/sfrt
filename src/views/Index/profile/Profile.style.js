@@ -1,10 +1,18 @@
 import styled from "styled-components"
 import { Border } from "components/border/Border"
 import miLogo from "assets/images/milogo.png"
+import miBak from "assets/images/back.png"
 const ProfileContainer = styled.div`
     display:flex;
     flex-direction:column;
     justify-content:center;
+    .miBak{
+        background: url(${miBak}) center center no-repeat #ff6700;
+        width: 39px;
+        height: 39px;
+        color: black;
+        display: block;
+    }   
     .miProfileLogo{
         height:0.96rem;
         background-size:cover;

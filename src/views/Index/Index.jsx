@@ -19,7 +19,7 @@ import HomeCon from "./home/Home"
 import ClassifyCon from "./classify/Classify"
 import NavigatorCon from "./navigator/Navigator"
 import ShopCon from "./shop/Shop"
-import ProfileCon from "./profile/Profile"
+import ProfileCon from "./profile/User"
 
 import "assets/styles/common.css"
 import {Redirect} from "react-router-dom"
@@ -111,15 +111,17 @@ class Index extends Component {
                                         this.props.history.push("/index/"+item.id);
                                         if(item.id==="Home"){
                                             this.props.history.push('/index/'+item.id+'/mihome')
-                                        }else if(item.id==='Profile'){
-                                            console.log('dd');
-                                            if(localStorage.getItem('userIfo')){
-                                                console.log('aa')
-                                                this.props.history.push('/user')
-                                            }else{
-                                                this.props.history.push('/login')
-                                            }
-                                        }else if(item.id==="Shop"){
+                                        }
+                                        // else if(item.id==='Profile'){
+                                        //     console.log('dd');
+                                        //     if(localStorage.getItem('userIfo')){
+                                        //         console.log('aa')
+                                        //         this.props.history.push('/user')
+                                        //     }else{
+                                        //         this.props.history.push('/login')
+                                        //     }
+                                        // }
+                                        else if(item.id==="Shop"){
                                             this.props.history.push('/Shop')
                                         }
                                     }}

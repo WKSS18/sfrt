@@ -9,7 +9,7 @@
 
     .loginMain {
         .loginSet {
-            display: flex;
+            display: flex!important;
             align-items: center;
             position: relative;
             i {
@@ -45,7 +45,12 @@
     background: #f5f5f5;
 }
 .loginName{
-    font-size: 20px;
-    margin: 20px;
+    font-size: 0.4rem;
+    margin: 0.4rem;
     display: block;
+}
+span.loginEntry {
+    font-size:0.4rem;
+    font-family: microsoft yahei;
+    padding: 0.2rem;;
 }

@@ -1,10 +1,12 @@
 import React, { Component } from 'react'
 import "./user.scss"
-export default class User extends Component {
+import { withRouter } from 'react-router-dom'
+class User extends Component {
     clickOut = () => {
-        console.log('a');
-        console.log(this.props);
         this.props.history.push('/logout')
+    }
+    handleLogin=()=>{
+        this.props.history.push('/login')
     }
     render() {
         return (
@@ -13,12 +15,13 @@ export default class User extends Component {
                         <span className="loginImg">
                             <img src="" alt="" />
                         </span>
-                        <span className="loginName">
-                            {JSON.parse(localStorage.getItem('userIfo')).username}
+                        <span className="loginEntry" style={{display: localStorage.getItem('userIfo') ? 'none' : 'block'}}  onClick={this.handleLogin}>登录</span>
+                        <span className="loginName" style={{display: localStorage.getItem('userIfo') ? 'block' : 'none'}}>
+                            {JSON.parse(localStorage.getItem('userIfo')) ? JSON.parse(localStorage.getItem('userIfo')).username : ''}
                         </span>
                     </div>
                     <div className="clip"></div>
-                    <div className="loginMain">
+                    <div className="loginMain" style={{display: localStorage.getItem('userIfo') ? 'block' : 'none'}}>
                         <div className="loginSet" onClick={this.clickOut}>
                             <i></i>
                             <span>设置</span>
@@ -28,3 +31,4 @@ export default class User extends Component {
         )
     }
 }
+export default withRouter(User)

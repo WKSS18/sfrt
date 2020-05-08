@@ -24,13 +24,17 @@ export default class Profile extends Component {
         let msg = result.data.message;
         if(result.data.code===1){
             alert(msg);
-            this.props.history.push('/user')
+            this.props.history.push('/index/Profile')
         }
+    }
+    bakClick  =()=>{
+        this.props.history.push('/index')
     }
     render() {
         return (
             <ProfileContainer>
                 <div className="miProfile">
+                    <i className="miBak" onClick={this.bakClick}></i>
                     <span className="miProfileLogo"></span>
                     <span className="miLogin">小米帐号登录</span>
                     <form className="miForm">
