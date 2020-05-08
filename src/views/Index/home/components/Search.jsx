@@ -28,7 +28,6 @@ class Search extends Component {
 
     }
     componentDidMount() {
-        console.log(this.props)
     }
 }
 

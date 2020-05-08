@@ -28,7 +28,6 @@ export default class Recommend extends Component {
     }
     async getDailylist(){
         let result = await get('/api/daily');
-        console.log(result)
         this.setState({
             Dailylist:result.data.recommend
         })

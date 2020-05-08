@@ -7,8 +7,7 @@ const goodslist = (params) => {
             result = result.data.data.filter((item) => {
                 return item.product_id === params.id
             })
-            console.log(result);
-            dispatch({ type: "AddGoods", data: result})
+            dispatch({ type: "goodsCount", data: result[0]})
         })
     }
 }

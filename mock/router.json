@@ -2,5 +2,7 @@
     "/api/miNav":"/miNav",
     "/api/miSwiper":"/miSwiper",
     "/api/daily":"/daily",
-    "/api/detailProduct":"/detailProduct"
+    "/api/detailProduct":"/detailProduct",
+    "/api/goods":"/goods",
+    "/api/classify":"/classify"
 }

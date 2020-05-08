@@ -6,6 +6,7 @@ import DetailProduct from "views/Index/detail/Miproduct"
 import Search from "./components/search/Search"
 import User from  "views/Index/profile/User.jsx"
 import Logout from "views/Index/profile/Logout"
+import Shop from "views/Index/shop/Shop"
 import { BrowserRouter as Router, Route, Switch, Redirect } from "react-router-dom"
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path="/search" component={Search}></Route>
           <Route path="/user" component={User}></Route>
           <Route path="/logout" component={Logout}></Route>
+          <Route path="/Shop" component={Shop}></Route>
           <Redirect exact from="/" to="/index"></Redirect>
           <Route path="*" render={() => {
             return <h1>page not found 404 </h1>

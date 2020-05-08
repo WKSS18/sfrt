@@ -1,0 +1,41 @@
+ul.classifyLf {
+    width: 76.18px;
+    background: #ccc;
+}
+
+ul.classifyLf li {
+    height: 46.88px;
+    text-align: center;
+    line-height: 46.88px;
+    font-size: 15px;
+    font-family: Helvetica Neue,Tahoma,Arial,PingFangSC-Regular,Hiragino Sans GB,Microsoft Yahei,sans-serif;
+}
+.miClassify {
+    display: flex;
+    flex-direction: column;
+}
+
+.classifyMain {
+    flex: 1;
+    overflow: auto;
+}
+.classifyMain {
+    display: flex;
+}
+
+ul.classifyRf {
+    flex: 1;
+}
+img.classifyTit {
+    width: 264.41px;
+    height: 104.16px;
+}
+ul.classifyRf {
+    padding: 0 17px;
+}
+.leftswiper {
+    overflow: auto;
+}
+.rightswiper {
+    overflow: auto;
+}

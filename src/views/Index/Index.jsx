@@ -119,6 +119,8 @@ class Index extends Component {
                                             }else{
                                                 this.props.history.push('/login')
                                             }
+                                        }else if(item.id==="Shop"){
+                                            this.props.history.push('/Shop')
                                         }
                                     }}
                                     data-seed="logId"
@@ -136,7 +138,6 @@ class Index extends Component {
     }
 
     componentDidMount(){
-        console.log(this.props)
         localStorage.setItem("count",this.props.count);
     }
 }

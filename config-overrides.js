@@ -9,6 +9,7 @@ module.exports = override(
         ["assets"]: path.resolve(__dirname, "src/assets/"),
         ["components"]: path.resolve(__dirname, "src/components/"),
         ["views"]: path.resolve(__dirname, "src/views/"),
-        ["mock"]: path.resolve(__dirname, "src/mock")
+        ["mock"]: path.resolve(__dirname, "src/mock"),
+        ["store"]: path.resolve(__dirname, "src/store"),
     })
 )

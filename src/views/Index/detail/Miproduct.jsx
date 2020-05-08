@@ -4,27 +4,36 @@ import Swiper from "components/swiper/Swiper"
 import "./Miproduct.scss"
 import connect from "./redux/connect"
 class Miproduct extends Component {
-    handClick = ()=>{
-        console.log(this.props);
-        this.props.changeCount();
-        this.props.goodsData({id:this.state.productId})
+    handClick = () => {
+        this.props.changeCount({ id: this.state.productId });
+        let list = [];
+        if (localStorage.getItem('goodsId')) {
+            list = JSON.parse(localStorage.getItem('goodsId'));
+        }
+        var rs = list.every((item,index)=>{
+            return item!==this.state.productId;
+        })
+        if(rs){
+            list.push(this.state.productId);
+        }
+        localStorage.setItem('goodsId', JSON.stringify(list));
     }
-    bakClick = ()=>{
+    bakClick = () => {
         this.props.history.push('/index/Home/mihome')
     }
-    constructor(){
+    constructor() {
         super();
         this.state = {
-            Swiperlist:[],
-            title:"",
-            productId:''
+            Swiperlist: [],
+            title: "",
+            productId: ''
         }
     }
     render() {
         return (
             <div className="miProductDetail">
                 <i className="bak" onClick={this.bakClick}></i>
-                <Swiper list={this.state.Swiperlist}></Swiper>   
+                <Swiper list={this.state.Swiperlist}></Swiper>
                 <p className="miprotit">
                     {this.state.title}
                 </p>
@@ -39,9 +48,9 @@ class Miproduct extends Component {
             return item.product_id === product_id
         })
         this.setState({
-            Swiperlist:productThem[0].gallery_v3,
-            title:productThem[0].title,
-            productId:productThem[0].product_id
+            Swiperlist: productThem[0].gallery_v3,
+            title: productThem[0].title,
+            productId: productThem[0].product_id
         })
     }
     componentDidMount() {
