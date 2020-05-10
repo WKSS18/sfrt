@@ -4,5 +4,6 @@
     "/api/daily":"/daily",
     "/api/detailProduct":"/detailProduct",
     "/api/goods":"/goods",
-    "/api/classify":"/classify"
+    "/api/classify":"/classify",
+    "/api/search":"/search"
 }

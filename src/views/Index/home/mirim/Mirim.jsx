@@ -19,10 +19,10 @@ export default class Mirim extends Component {
                 <div className="miTrimMain">
                     <div className="miTrimNav">
                         {
-                            this.state.classifylist.map((item, index) => {
+                            this.state.classifylist.map((item,index) => {
                                 return (
-                                    <li key={index}>
-                                        <img src={item.img_url} alt="" />
+                                    <li key={'tef'+index}>
+                                        <img src={item.img_url} alt="1" />
                                     </li>
                                 )
                             })
@@ -33,13 +33,12 @@ export default class Mirim extends Component {
                         {
                             this.state.productlist.map((item) => {
                                 return (
-                                    <li key={item.product_id}>
+                                    <li key={'def'+Math.random()*19524582152}>
                                         <img src={item.img_url} alt="" />
                                         <p className="trimName">{item.product_name}</p>
                                         <p className="trimBrief">{item.product_brief}</p>
                                         <p className="trimPrice">
                                             <span className="trimNewprice">￥{item.product_price}</span>
-                                            {/* <span className="trimOldprice">￥{item.product_org_price}</span> */}
                                         </p>
                                     </li>
                                 )
@@ -52,9 +51,7 @@ export default class Mirim extends Component {
     }
     async getDailylist() {
         let result = await get('/api/daily');
-        console.log(result)
         this.setState({
-
             headItem: result.data.live[0].headItem,
             classifylist: result.data.live[0].classify,
             productlist: result.data.live[0].product,

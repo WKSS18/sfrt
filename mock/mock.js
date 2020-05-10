@@ -4,6 +4,7 @@ const daily = require('./daily.json');
 const detailProduct = require('./detailProduct.json');
 const goods = require('./goods.json');
 const classify = require('./classify.json');
+const search  = require('./search.json')
 module.exports = ()=>{
     return {
         miNav,
@@ -11,6 +12,7 @@ module.exports = ()=>{
         daily,
         detailProduct,
         goods,
-        classify
+        classify,
+        search
     }
 }

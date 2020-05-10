@@ -5,6 +5,7 @@ import "assets/styles/common.css"
 import { Provider } from "react-redux"
 import store from "./store/store"
 import "./mock/user"
+import "./mock/search"
 ReactDOM.render(
   <Provider store={store}>
     <App />

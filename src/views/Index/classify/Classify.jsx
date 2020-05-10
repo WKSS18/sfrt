@@ -62,7 +62,7 @@ class Classify extends Component {
                                 {
                                     this.state.slideRflist.map((item) => {
                                         return (
-                                            <ul id={item.category_id} key={'a1252' + Math.floor(Math.random() * 10000)}>
+                                            <ul id={item.category_id} key={'class' + Math.floor(Math.random() * 10000)}>
                                                 {
                                                     item.category_list.map((item) => {
                                                         return (

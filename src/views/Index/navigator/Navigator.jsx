@@ -4,7 +4,7 @@ export default class Navigator extends Component {
     render() {
         return (
             <div>
-                navigator
+                该模块待开发
             </div>
         )
     }

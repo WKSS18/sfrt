@@ -1,0 +1,757 @@
+{
+    "code": 0,
+    "data": {
+        "ad_list": [
+            {
+                "body": {
+                    "h": 207,
+                    "items": [
+                        {
+                            "action": {
+                                "log_code": "31wapadsearch-pre-newcells_auto_fill001001#t=ad\u0026act=other\u0026page=adsearch-pre-new\u0026bid=3654717.1\u0026adp=4061\u0026adm=20657\u0026bpm=28.93.3607515.1\u0026cdm=0.0.0.0",
+                                "path": "https://s1.mi.com/m/app/hd/index.html?id=15203",
+                                "type": "activity"
+                            },
+                            "h": 160,
+                            "img_url": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/8384867070a17a75d6855e199a9ff358.jpeg?w=984\u0026h=160\u0026bg=CEAE99",
+                            "img_url_webp": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/8384867070a17a75d6855e199a9ff358.jpeg?f=webp\u0026w=984\u0026h=160\u0026bg=CEAE99",
+                            "path_type": "image",
+                            "w": 984,
+                            "x": 48
+                        }
+                    ],
+                    "line_color": "",
+                    "line_height": "",
+                    "title_logo_url": "",
+                    "w": 1080
+                },
+                "stat": "",
+                "view_type": "cells_auto_fill"
+            }
+        ],
+        "discover_list": [
+            {
+                "desc": "小米10 青春版 5G",
+                "id": 1,
+                "item_id": 0,
+                "item_type": 1,
+                "logcode": "bpm=28.93.3607516.1\u0026cdm=0.0.0.search2\u0026query=小米10 青春版 5G",
+                "sort": 1
+            },
+            {
+                "action": {
+                    "login": false,
+                    "path": "https://m.mi.com/crowdfunding/home",
+                    "type": "crowd_home"
+                },
+                "desc": "小米众筹",
+                "id": 2,
+                "item_id": 0,
+                "item_type": 2,
+                "logcode": "bpm=28.93.3607516.2\u0026cdm=0.0.0.search2\u0026query=小米众筹",
+                "sort": 2
+            },
+            {
+                "action": {
+                    "login": false,
+                    "path": "https://s1.mi.com/m/app/hd/index.html?id=15230",
+                    "type": "activity"
+                },
+                "desc": "潮一把，率先做自己",
+                "id": 3,
+                "item_id": 15230,
+                "item_type": 3,
+                "logcode": "bpm=28.93.3607516.3\u0026cdm=0.0.0.search2\u0026query=潮一把，率先做自己",
+                "sort": 3
+            },
+            {
+                "desc": "Redmi K30 Pro",
+                "id": 4,
+                "item_id": 0,
+                "item_type": 1,
+                "logcode": "bpm=28.93.3607516.4\u0026cdm=0.0.0.search2\u0026query=Redmi K30 Pro",
+                "sort": 4
+            },
+            {
+                "action": {
+                    "login": false,
+                    "path": "https://s1.mi.com/m/app/hd/index.html?id=15225",
+                    "type": "activity"
+                },
+                "desc": "向往的智能生活",
+                "id": 5,
+                "item_id": 15225,
+                "item_type": 3,
+                "logcode": "bpm=28.93.3607516.5\u0026cdm=0.0.0.search2\u0026query=向往的智能生活",
+                "sort": 5
+            },
+            {
+                "desc": "小米手环4",
+                "id": 6,
+                "item_id": 0,
+                "item_type": 1,
+                "logcode": "bpm=28.93.3607516.6\u0026cdm=0.0.0.search2\u0026query=小米手环4",
+                "sort": 6
+            },
+            {
+                "desc": "压力IH电饭煲",
+                "id": 7,
+                "item_id": 0,
+                "item_type": 1,
+                "logcode": "bpm=28.93.3607516.7\u0026cdm=0.0.0.search2\u0026query=压力IH电饭煲",
+                "sort": 7
+            },
+            {
+                "desc": "电视",
+                "id": 8,
+                "item_id": 7,
+                "item_type": 4,
+                "logcode": "bpm=28.93.3607516.8\u0026cdm=0.0.0.search2\u0026query=电视",
+                "sort": 8
+            },
+            {
+                "desc": "智能",
+                "id": 9,
+                "item_id": 29,
+                "item_type": 4,
+                "logcode": "bpm=28.93.3607516.9\u0026cdm=0.0.0.search2\u0026query=智能",
+                "sort": 9
+            },
+            {
+                "desc": "米家手持挂烫机",
+                "id": 10,
+                "item_id": 0,
+                "item_type": 1,
+                "logcode": "bpm=28.93.3607516.10\u0026cdm=0.0.0.search2\u0026query=米家手持挂烫机",
+                "sort": 10
+            }
+        ],
+        "gif_url": "https://v.mifile.cn/v1/a1/f4c27b6a-d110-6698-73c1-2a2e1101a70f.gif",
+        "hot_class": [
+            {
+                "bottom_title": "",
+                "icon": "",
+                "is_page_show": false,
+                "log_code": "bpm=28.93.3607518.1\u0026next=28.94\u0026query=%E6%89%8B%E6%9C%BA",
+                "name": "手机",
+                "parameter_id": 1,
+                "search_title": "",
+                "top_title": "",
+                "value": ""
+            },
+            {
+                "bottom_title": "",
+                "icon": "",
+                "is_page_show": false,
+                "log_code": "bpm=28.93.3607518.2\u0026next=28.94\u0026query=%E7%94%B5%E8%A7%86",
+                "name": "电视",
+                "parameter_id": 7,
+                "search_title": "",
+                "top_title": "",
+                "value": ""
+            },
+            {
+                "bottom_title": "",
+                "icon": "",
+                "is_page_show": false,
+                "log_code": "bpm=28.93.3607518.3\u0026next=28.94\u0026query=%E7%AC%94%E8%AE%B0%E6%9C%AC",
+                "name": "笔记本",
+                "parameter_id": 2,
+                "search_title": "",
+                "top_title": "",
+                "value": ""
+            },
+            {
+                "bottom_title": "",
+                "icon": "",
+                "is_page_show": false,
+                "log_code": "bpm=28.93.3607518.4\u0026next=28.94\u0026query=%E7%9B%92%E5%AD%90",
+                "name": "盒子",
+                "parameter_id": 9,
+                "search_title": "",
+                "top_title": "",
+                "value": ""
+            },
+            {
+                "bottom_title": "",
+                "icon": "",
+                "is_page_show": false,
+                "log_code": "bpm=28.93.3607518.5\u0026next=28.94\u0026query=%E8%B7%AF%E7%94%B1%E5%99%A8",
+                "name": "路由器",
+                "parameter_id": 12,
+                "search_title": "",
+                "top_title": "",
+                "value": ""
+            },
+            {
+                "bottom_title": "",
+                "icon": "",
+                "is_page_show": false,
+                "log_code": "bpm=28.93.3607518.6\u0026next=28.94\u0026query=%E5%B9%B3%E6%9D%BF",
+                "name": "平板",
+                "parameter_id": 3,
+                "search_title": "",
+                "top_title": "",
+                "value": ""
+            },
+            {
+                "bottom_title": "",
+                "icon": "",
+                "is_page_show": false,
+                "log_code": "bpm=28.93.3607518.7\u0026next=28.94\u0026query=%E6%BF%80%E5%85%89%E6%8A%95%E5%BD%B1",
+                "name": "激光投影",
+                "parameter_id": 11,
+                "search_title": "",
+                "top_title": "",
+                "value": ""
+            },
+            {
+                "bottom_title": "",
+                "icon": "",
+                "is_page_show": false,
+                "log_code": "bpm=28.93.3607518.8\u0026next=28.94\u0026query=%E6%89%8B%E8%A1%A8",
+                "name": "手表",
+                "parameter_id": 20,
+                "search_title": "",
+                "top_title": "",
+                "value": ""
+            },
+            {
+                "bottom_title": "",
+                "icon": "",
+                "is_page_show": false,
+                "log_code": "bpm=28.93.3607518.9\u0026next=28.94\u0026query=VR",
+                "name": "VR",
+                "parameter_id": 21,
+                "search_title": "",
+                "top_title": "",
+                "value": ""
+            },
+            {
+                "bottom_title": "",
+                "icon": "",
+                "is_page_show": false,
+                "log_code": "bpm=28.93.3607518.10\u0026next=28.94\u0026query=%E7%A9%BF%E6%88%B4",
+                "name": "穿戴",
+                "parameter_id": 18,
+                "search_title": "",
+                "top_title": "",
+                "value": ""
+            },
+            {
+                "bottom_title": "",
+                "icon": "",
+                "is_page_show": false,
+                "log_code": "bpm=28.93.3607518.11\u0026next=28.94\u0026query=%E7%A9%BA%E6%B0%94%E5%87%80%E5%8C%96%E5%99%A8",
+                "name": "空气净化器",
+                "parameter_id": 5,
+                "search_title": "",
+                "top_title": "",
+                "value": ""
+            },
+            {
+                "bottom_title": "",
+                "icon": "",
+                "is_page_show": false,
+                "log_code": "bpm=28.93.3607518.12\u0026next=28.94\u0026query=%E7%A9%BA%E8%B0%83",
+                "name": "空调",
+                "parameter_id": 59,
+                "search_title": "",
+                "top_title": "",
+                "value": ""
+            },
+            {
+                "bottom_title": "",
+                "icon": "",
+                "is_page_show": false,
+                "log_code": "bpm=28.93.3607518.13\u0026next=28.94\u0026query=%E6%B4%97%E8%A1%A3%E6%9C%BA",
+                "name": "洗衣机",
+                "parameter_id": 60,
+                "search_title": "",
+                "top_title": "",
+                "value": ""
+            },
+            {
+                "bottom_title": "",
+                "icon": "",
+                "is_page_show": false,
+                "log_code": "bpm=28.93.3607518.14\u0026next=28.94\u0026query=%E8%80%B3%E6%9C%BA",
+                "name": "耳机",
+                "parameter_id": 8,
+                "search_title": "",
+                "top_title": "",
+                "value": ""
+            },
+            {
+                "bottom_title": "",
+                "icon": "",
+                "is_page_show": false,
+                "log_code": "bpm=28.93.3607518.15\u0026next=28.94\u0026query=%E5%AE%B6%E7%94%B5",
+                "name": "家电",
+                "parameter_id": 4,
+                "search_title": "",
+                "top_title": "",
+                "value": ""
+            },
+            {
+                "bottom_title": "",
+                "icon": "",
+                "is_page_show": false,
+                "log_code": "bpm=28.93.3607518.16\u0026next=28.94\u0026query=%E5%86%B0%E7%AE%B1",
+                "name": "冰箱",
+                "parameter_id": 62,
+                "search_title": "",
+                "top_title": "",
+                "value": ""
+            },
+            {
+                "bottom_title": "",
+                "icon": "",
+                "is_page_show": false,
+                "log_code": "bpm=28.93.3607518.17\u0026next=28.94\u0026query=%E5%AE%89%E9%98%B2%E7%9B%91%E6%8E%A7",
+                "name": "安防监控",
+                "parameter_id": 24,
+                "search_title": "",
+                "top_title": "",
+                "value": ""
+            },
+            {
+                "bottom_title": "",
+                "icon": "",
+                "is_page_show": false,
+                "log_code": "bpm=28.93.3607518.18\u0026next=28.94\u0026query=%E6%8F%92%E7%BA%BF%E6%9D%BF",
+                "name": "插线板",
+                "parameter_id": 25,
+                "search_title": "",
+                "top_title": "",
+                "value": ""
+            },
+            {
+                "bottom_title": "",
+                "icon": "",
+                "is_page_show": false,
+                "log_code": "bpm=28.93.3607518.19\u0026next=28.94\u0026query=%E9%85%B7%E7%8E%A9",
+                "name": "酷玩",
+                "parameter_id": 27,
+                "search_title": "",
+                "top_title": "",
+                "value": ""
+            },
+            {
+                "bottom_title": "",
+                "icon": "",
+                "is_page_show": false,
+                "log_code": "bpm=28.93.3607518.20\u0026next=28.94\u0026query=%E7%9B%B8%E6%9C%BA",
+                "name": "相机",
+                "parameter_id": 23,
+                "search_title": "",
+                "top_title": "",
+                "value": ""
+            },
+            {
+                "bottom_title": "",
+                "icon": "",
+                "is_page_show": false,
+                "log_code": "bpm=28.93.3607518.21\u0026next=28.94\u0026query=%E5%81%A5%E5%BA%B7",
+                "name": "健康",
+                "parameter_id": 26,
+                "search_title": "",
+                "top_title": "",
+                "value": ""
+            },
+            {
+                "bottom_title": "",
+                "icon": "",
+                "is_page_show": false,
+                "log_code": "bpm=28.93.3607518.22\u0026next=28.94\u0026query=%E6%B1%BD%E8%BD%A6%E7%94%A8%E5%93%81",
+                "name": "汽车用品",
+                "parameter_id": 17,
+                "search_title": "",
+                "top_title": "",
+                "value": ""
+            },
+            {
+                "bottom_title": "",
+                "icon": "",
+                "is_page_show": false,
+                "log_code": "bpm=28.93.3607518.23\u0026next=28.94\u0026query=%E6%88%B7%E5%A4%96",
+                "name": "户外",
+                "parameter_id": 16,
+                "search_title": "",
+                "top_title": "",
+                "value": ""
+            },
+            {
+                "bottom_title": "",
+                "icon": "",
+                "is_page_show": false,
+                "log_code": "bpm=28.93.3607518.24\u0026next=28.94\u0026query=%E5%87%BA%E8%A1%8C",
+                "name": "出行",
+                "parameter_id": 14,
+                "search_title": "",
+                "top_title": "",
+                "value": ""
+            },
+            {
+                "bottom_title": "",
+                "icon": "",
+                "is_page_show": false,
+                "log_code": "bpm=28.93.3607518.25\u0026next=28.94\u0026query=%E7%81%AF%E5%85%B7",
+                "name": "灯具",
+                "parameter_id": 28,
+                "search_title": "",
+                "top_title": "",
+                "value": ""
+            },
+            {
+                "bottom_title": "",
+                "icon": "",
+                "is_page_show": false,
+                "log_code": "bpm=28.93.3607518.26\u0026next=28.94\u0026query=%E6%99%BA%E8%83%BD",
+                "name": "智能",
+                "parameter_id": 29,
+                "search_title": "",
+                "top_title": "",
+                "value": ""
+            },
+            {
+                "bottom_title": "",
+                "icon": "",
+                "is_page_show": false,
+                "log_code": "bpm=28.93.3607518.27\u0026next=28.94\u0026query=%E5%8C%85",
+                "name": "包",
+                "parameter_id": 31,
+                "search_title": "",
+                "top_title": "",
+                "value": ""
+            },
+            {
+                "bottom_title": "",
+                "icon": "",
+                "is_page_show": false,
+                "log_code": "bpm=28.93.3607518.28\u0026next=28.94\u0026query=%E6%97%85%E8%A1%8C%E7%AE%B1",
+                "name": "旅行箱",
+                "parameter_id": 30,
+                "search_title": "",
+                "top_title": "",
+                "value": ""
+            },
+            {
+                "bottom_title": "",
+                "icon": "",
+                "is_page_show": false,
+                "log_code": "bpm=28.93.3607518.29\u0026next=28.94\u0026query=%E7%94%B5%E6%BA%90%E7%94%B5%E6%B1%A0",
+                "name": "电源电池",
+                "parameter_id": 33,
+                "search_title": "",
+                "top_title": "",
+                "value": ""
+            },
+            {
+                "bottom_title": "",
+                "icon": "",
+                "is_page_show": false,
+                "log_code": "bpm=28.93.3607518.30\u0026next=28.94\u0026query=%E9%85%8D%E4%BB%B6",
+                "name": "配件",
+                "parameter_id": 32,
+                "search_title": "",
+                "top_title": "",
+                "value": ""
+            },
+            {
+                "bottom_title": "",
+                "icon": "",
+                "is_page_show": false,
+                "log_code": "bpm=28.93.3607518.31\u0026next=28.94\u0026query=%E5%A9%B4%E7%AB%A5",
+                "name": "婴童",
+                "parameter_id": 13,
+                "search_title": "",
+                "top_title": "",
+                "value": ""
+            },
+            {
+                "bottom_title": "",
+                "icon": "",
+                "is_page_show": false,
+                "log_code": "bpm=28.93.3607518.32\u0026next=28.94\u0026query=%E6%97%A5%E7%94%A8%E7%99%BE%E8%B4%A7",
+                "name": "日用百货",
+                "parameter_id": 50,
+                "search_title": "",
+                "top_title": "",
+                "value": ""
+            },
+            {
+                "bottom_title": "",
+                "icon": "",
+                "is_page_show": false,
+                "log_code": "bpm=28.93.3607518.33\u0026next=28.94\u0026query=%E8%BF%90%E5%8A%A8%E9%9E%8B",
+                "name": "运动鞋",
+                "parameter_id": 52,
+                "search_title": "",
+                "top_title": "",
+                "value": ""
+            },
+            {
+                "bottom_title": "",
+                "icon": "",
+                "is_page_show": false,
+                "log_code": "bpm=28.93.3607518.34\u0026next=28.94\u0026query=%E6%9C%8D%E8%A3%85",
+                "name": "服装",
+                "parameter_id": 53,
+                "search_title": "",
+                "top_title": "",
+                "value": ""
+            },
+            {
+                "bottom_title": "",
+                "icon": "",
+                "is_page_show": false,
+                "log_code": "bpm=28.93.3607518.35\u0026next=28.94\u0026query=%E7%9C%BC%E9%95%9C",
+                "name": "眼镜",
+                "parameter_id": 51,
+                "search_title": "",
+                "top_title": "",
+                "value": ""
+            },
+            {
+                "bottom_title": "",
+                "icon": "",
+                "is_page_show": false,
+                "log_code": "bpm=28.93.3607518.36\u0026next=28.94\u0026query=%E4%B8%AA%E6%8A%A4",
+                "name": "个护",
+                "parameter_id": 54,
+                "search_title": "",
+                "top_title": "",
+                "value": ""
+            },
+            {
+                "bottom_title": "",
+                "icon": "",
+                "is_page_show": false,
+                "log_code": "bpm=28.93.3607518.37\u0026next=28.94\u0026query=%E5%8A%9E%E5%85%AC%E7%94%A8%E5%93%81",
+                "name": "办公用品",
+                "parameter_id": 61,
+                "search_title": "",
+                "top_title": "",
+                "value": ""
+            },
+            {
+                "bottom_title": "",
+                "icon": "",
+                "is_page_show": false,
+                "log_code": "bpm=28.93.3607518.38\u0026next=28.94\u0026query=%E9%85%8D%E9%A5%B0",
+                "name": "配饰",
+                "parameter_id": 63,
+                "search_title": "",
+                "top_title": "",
+                "value": ""
+            },
+            {
+                "bottom_title": "",
+                "icon": "",
+                "is_page_show": false,
+                "log_code": "bpm=28.93.3607518.39\u0026next=28.94\u0026query=%E5%87%80%E6%B0%B4%E5%99%A8",
+                "name": "净水器",
+                "parameter_id": 64,
+                "search_title": "",
+                "top_title": "",
+                "value": ""
+            },
+            {
+                "bottom_title": "",
+                "icon": "",
+                "is_page_show": false,
+                "log_code": "bpm=28.93.3607518.40\u0026next=28.94\u0026query=%E6%89%8B%E6%9C%BA%E9%85%8D%E4%BB%B6",
+                "name": "手机配件",
+                "parameter_id": 37,
+                "search_title": "",
+                "top_title": "",
+                "value": ""
+            },
+            {
+                "bottom_title": "",
+                "icon": "",
+                "is_page_show": false,
+                "log_code": "bpm=28.93.3607518.41\u0026next=28.94\u0026query=%E6%89%8B%E6%9C%BA%E8%B4%B4%E8%86%9C",
+                "name": "手机贴膜",
+                "parameter_id": 36,
+                "search_title": "",
+                "top_title": "",
+                "value": ""
+            },
+            {
+                "bottom_title": "",
+                "icon": "",
+                "is_page_show": false,
+                "log_code": "bpm=28.93.3607518.42\u0026next=28.94\u0026query=%E6%89%8B%E6%9C%BA%E4%BF%9D%E6%8A%A4%E5%A3%B3",
+                "name": "手机保护壳",
+                "parameter_id": 35,
+                "search_title": "",
+                "top_title": "",
+                "value": ""
+            },
+            {
+                "bottom_title": "",
+                "icon": "",
+                "is_page_show": false,
+                "log_code": "bpm=28.93.3607518.43\u0026next=28.94\u0026query=%E7%94%B5%E8%A7%86%E9%85%8D%E4%BB%B6",
+                "name": "电视配件",
+                "parameter_id": 43,
+                "search_title": "",
+                "top_title": "",
+                "value": ""
+            },
+            {
+                "bottom_title": "",
+                "icon": "",
+                "is_page_show": false,
+                "log_code": "bpm=28.93.3607518.44\u0026next=28.94\u0026query=%E8%80%97%E6%9D%90%E9%85%8D%E4%BB%B6",
+                "name": "耗材配件",
+                "parameter_id": 44,
+                "search_title": "",
+                "top_title": "",
+                "value": ""
+            },
+            {
+                "bottom_title": "",
+                "icon": "",
+                "is_page_show": false,
+                "log_code": "bpm=28.93.3607518.45\u0026next=28.94\u0026query=%E7%A9%BF%E6%88%B4%E9%85%8D%E4%BB%B6",
+                "name": "穿戴配件",
+                "parameter_id": 38,
+                "search_title": "",
+                "top_title": "",
+                "value": ""
+            },
+            {
+                "bottom_title": "",
+                "icon": "",
+                "is_page_show": false,
+                "log_code": "bpm=28.93.3607518.46\u0026next=28.94\u0026query=%E5%87%BA%E8%A1%8C%E9%85%8D%E4%BB%B6",
+                "name": "出行配件",
+                "parameter_id": 45,
+                "search_title": "",
+                "top_title": "",
+                "value": ""
+            },
+            {
+                "bottom_title": "",
+                "icon": "",
+                "is_page_show": false,
+                "log_code": "bpm=28.93.3607518.47\u0026next=28.94\u0026query=%E6%95%B0%E6%8D%AE%E7%BA%BF",
+                "name": "数据线",
+                "parameter_id": 34,
+                "search_title": "",
+                "top_title": "",
+                "value": ""
+            },
+            {
+                "bottom_title": "",
+                "icon": "",
+                "is_page_show": false,
+                "log_code": "bpm=28.93.3607518.48\u0026next=28.94\u0026query=%E5%B9%B3%E6%9D%BF%E9%85%8D%E4%BB%B6",
+                "name": "平板配件",
+                "parameter_id": 42,
+                "search_title": "",
+                "top_title": "",
+                "value": ""
+            },
+            {
+                "bottom_title": "",
+                "icon": "",
+                "is_page_show": false,
+                "log_code": "bpm=28.93.3607518.49\u0026next=28.94\u0026query=%E7%AC%94%E8%AE%B0%E6%9C%AC%E9%85%8D%E4%BB%B6",
+                "name": "笔记本配件",
+                "parameter_id": 41,
+                "search_title": "",
+                "top_title": "",
+                "value": ""
+            },
+            {
+                "bottom_title": "",
+                "icon": "",
+                "is_page_show": false,
+                "log_code": "bpm=28.93.3607518.50\u0026next=28.94\u0026query=%E9%9F%B3%E7%AE%B1",
+                "name": "音箱",
+                "parameter_id": 10,
+                "search_title": "",
+                "top_title": "",
+                "value": ""
+            },
+            {
+                "bottom_title": "",
+                "icon": "",
+                "is_page_show": false,
+                "log_code": "bpm=28.93.3607518.51\u0026next=28.94\u0026query=%E7%B1%B3%E7%B2%89%E5%8D%A1",
+                "name": "米粉卡",
+                "parameter_id": 55,
+                "search_title": "",
+                "top_title": "",
+                "value": ""
+            },
+            {
+                "bottom_title": "",
+                "icon": "",
+                "is_page_show": false,
+                "log_code": "bpm=28.93.3607518.52\u0026next=28.94\u0026query=%E6%9C%8D%E5%8A%A1",
+                "name": "服务",
+                "parameter_id": 56,
+                "search_title": "",
+                "top_title": "",
+                "value": ""
+            }
+        ],
+        "keywords": [
+            {
+                "back_n": "#e8f6f6",
+                "border_n": "#8cdade",
+                "font_n": "#484848",
+                "log_code": "bpm=28.93.3607516.1\u0026next=28.94\u0026query=%E5%85%A8%E9%83%A8%E5%95%86%E5%93%81",
+                "word": "全部商品"
+            },
+            {
+                "back_n": "#f8f2ec",
+                "border_n": "#fac288",
+                "font_n": "#484848",
+                "log_code": "bpm=28.93.3607516.2\u0026next=28.94\u0026query=%E5%B0%8F%E7%B1%B310+%E9%9D%92%E6%98%A5%E7%89%88+5G",
+                "word": "小米10 青春版 5G"
+            },
+            {
+                "back_n": "#f9eaea",
+                "border_n": "#fca0a7",
+                "font_n": "#050505",
+                "log_code": "bpm=28.93.3607516.3\u0026next=28.94\u0026query=Redmi+K30+Pro",
+                "word": "Redmi K30 Pro"
+            },
+            {
+                "back_n": "#fae8e8",
+                "border_n": "#e3af96",
+                "font_n": "#484848",
+                "log_code": "bpm=28.93.3607516.4\u0026next=28.94\u0026query=%E5%B0%8F%E7%B1%B3%E3%80%8C%E5%B0%8F%E7%88%B1%E8%80%81%E5%B8%88%E3%80%8D",
+                "word": "小米「小爱老师」"
+            },
+            {
+                "back_n": "#f2f6e9",
+                "border_n": "#bbd090",
+                "font_n": "#484848",
+                "log_code": "bpm=28.93.3607516.5\u0026next=28.94\u0026query=%E7%A0%B4%E5%A3%81%E6%96%99%E7%90%86%E6%9C%BA",
+                "word": "破壁料理机"
+            },
+            {
+                "back_n": "#f8f2ec",
+                "border_n": "#fac288",
+                "font_n": "#484848",
+                "log_code": "bpm=28.93.3607516.6\u0026next=28.94\u0026query=%E6%89%8B%E6%9C%BAUSB+micro+%E6%95%B0%E6%8D%AE%E7%BA%BF++",
+                "word": "手机USB micro 数据线  "
+            },
+            {
+                "back_n": "#f9eaea",
+                "border_n": "#fca0a7",
+                "font_n": "#484848",
+                "log_code": "bpm=28.93.3607516.7\u0026next=28.94\u0026query=Redmi+Note+8",
+                "word": "Redmi Note 8"
+            }
+        ]
+    },
+    "result": "ok"
+}
