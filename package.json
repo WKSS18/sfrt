@@ -42,7 +42,7 @@
     "antd-mobile": "^2.3.1",
     "customize-cra": "^0.9.1",
     "http-proxy-middleware": "^1.0.3",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.21",
     "mockjs": "^1.1.0",
     "react-app-rewired": "^2.1.6",
     "redux-thunk": "^2.3.0"
